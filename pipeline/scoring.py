@@ -17,13 +17,13 @@ def calculate_probability_score(row):  ## through this function i will use each 
         score += 30
 
     # Scientific intent
-    if pd.notna(row.get()("paper_title")):  ## if paper title is not empty means someone publish paper  give them score 40
+    if pd.notna(row.get("paper_title")):  ## if paper title is not empty means someone publish paper  give them score 40
         # Check kar rahe hain ki paper_title null nahi hai (person ne research publish kiya hai)
         # Research publish kiya → high intent → 40 score add
         score += 40
 
     # Conference / active market signal
-    if pd.notna(row.get()("conference")):         
+    if pd.notna(row.get("conference")):         
     ## here check the person attend conference or not if yes give score 20
           # Check kar rahe hain ki person conference attend/speak kiya hai ya nahi
            # Conference participation → active in field → 20 score add
