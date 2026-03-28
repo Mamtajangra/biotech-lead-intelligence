@@ -84,10 +84,10 @@ st.dataframe(filtered_df, use_container_width=True)
 
 # Chart
 st.subheader("Score Distribution")  
-# Chart ka heading
 
-st.bar_chart(filtered_df["probability_score"])  
-# Score distribution ka bar chart show kar rahe hain
+
+st.write(filtered_df["probability_score"])  
+
 
 # Download button
 st.download_button(
