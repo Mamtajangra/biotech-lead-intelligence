@@ -1,5 +1,3 @@
-# pipeline/pipeline.py
-
 from pipeline.data_loader import load_data
 from pipeline.processor import merge_data
 from pipeline.scoring import apply_scoring
