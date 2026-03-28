@@ -5,8 +5,8 @@ import os
 # Temporary fix for Python 3.13 compatibility issue:
 # 'imghdr' module was removed in Python 3.13, but Streamlit still tries to import it.
 # This creates a dummy (fake) module so Streamlit doesn't crash during impor
-import types
-sys.modules['imghdr'] = types.ModuleType('imghdr')
+# import types
+# sys.modules['imghdr'] = types.ModuleType('imghdr')
 
 sys.path.append(os.path.abspath("."))  
 # Current project path ko Python path me add kar rahe hain
@@ -86,7 +86,7 @@ st.dataframe(filtered_df, use_container_width=True)
 st.subheader("Score Distribution")  
 
 
-st.write(filtered_df["probability_score"])  
+st.bar_chart(filtered_df["probability_score"])  
 
 
 # Download button
