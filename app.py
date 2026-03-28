@@ -86,7 +86,7 @@ st.dataframe(filtered_df, use_container_width=True)
 st.subheader("Score Distribution")  
 
 
-st.bar_chart(filtered_df["probability_score"])  
+st.bar_chart(filtered_df.set_index("name")["probability_score"])
 
 
 # Download button
