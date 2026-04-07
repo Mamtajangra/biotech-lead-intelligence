@@ -8,17 +8,21 @@ results in significant time spent pursuing low-intent prospects.
 This project addresses the need for a streamlined approach to prioritize high-probability buyers of
 advanced **3D in-vitro models**.
 
-## screenshot
+## Screenshots
 ![Problem Screenshot](images/problem.png)
+![App Screenshot](images/shot2.jpg)
+![App Screenshot](images/shot1.jpg)
 
+## Streamlit Link
+**Live Demo:** [Click here to view](https://mamtajangra-biotech-lead-intelligence-app-ukn3sy.streamlit.app/)
 
-## streamlit link
- **Live Demo:** [Click here to view](https://biotech-intelligence.streamlit.app/)
+## Docker Deployment Link
+**Dockerized App:** [Click here to view](https://biotech-lead-intelligence-production.up.railway.app)
 
-
-## screenshot
-![App Screenshot](images/image.png)
-
+## Tech Stack
+- Python, Pandas
+- Streamlit
+- Docker + Railway
 
 ## Project Overview
 This proof-of-concept lead intelligence system demonstrates how to:
@@ -28,7 +32,6 @@ This proof-of-concept lead intelligence system demonstrates how to:
 - Rank leads using a business-driven **propensity score (0–100)**
 
 The focus of this project is on **decision logic and prioritization**, not scale.
-
 
 ## Data Sources
 The demo leverages **simulated/public data** inspired by the following sources:
@@ -47,7 +50,6 @@ to be modular and can be seamlessly replaced with real-time integrations such as
 LinkedIn Sales Navigator, Proxycurl, PubMed, and funding intelligence APIs in a
 production environment, without changing the scoring or ranking logic.
 
-
 ## Methodology
 
 ### 1. Identification
@@ -63,12 +65,10 @@ Each profile is enriched with:
 Weighted business rules are applied to assign a **probability score (0–100)** indicating the likelihood
 that a lead would engage with 3D in-vitro model solutions.
 
-
 ## Output
 The system produces a **searchable and exportable dashboard** that ranks leads by their
 propensity to engage, enabling business development teams to focus outreach on
 the highest-intent prospects.
-
 
 ## Disclaimer
 This project is a **proof-of-concept** built using simulated/public data for demonstration purposes only.
