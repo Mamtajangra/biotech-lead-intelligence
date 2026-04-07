@@ -9,9 +9,9 @@ This project addresses the need for a streamlined approach to prioritize high-pr
 advanced **3D in-vitro models**.
 
 ## Screenshots
-![Problem Screenshot](images/problem.png)
-![App Screenshot](images/shot2.jpg)
-![App Screenshot](images/shot1.jpg)
+![Problem Screenshot](images\problem.png)
+![App Screenshot](images\shot2.jpg)
+![App Screenshot](images\shot1.jpg)
 
 ## Streamlit Link
 **Live Demo:** [Click here to view](https://mamtajangra-biotech-lead-intelligence-app-ukn3sy.streamlit.app/)
